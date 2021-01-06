@@ -8,7 +8,8 @@ tags:
   - web project
 ---
 
-[Search-history](https://temp-drafts.com/pages/search-history)  
+[link: Search-history](https://temp-drafts.com/pages/search-history)
+
 차주훈의 유튜브 검색기록. 2020. 웹.  
 “역사상 가장 사적인 단어들의 나열”
 
