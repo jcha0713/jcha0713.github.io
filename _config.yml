@@ -17,10 +17,8 @@ locale: "ko-KR"
 title: jcha0713.blog()
 email: joocha0713@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
+  A website about all kinds of programming, match data analysing, film photography that I(Joohoon Cha) do.
+twitter_username: jcha0713
 github_username: jcha0713
 minimal_mistakes_skin: dirt
 search: true
@@ -62,7 +60,8 @@ plugins:
 author:
   name   : "Joohoon Cha"
   avatar : "/assets/images/profile.jpg"
-  bio    : "(Trying to be) Full stack developer, Novel writer(Kor only), Designer, film photographer, and a Suwon Samsung Bluewings fan 🔵⚪️🔴"
+  bio    : "Full stack developer, novel writer(Korean only), designer, film photographer, and Suwon Samsung Bluewings fan 🔵⚪️🔴"
+  location: "Seoul, KR"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
