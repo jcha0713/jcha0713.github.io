@@ -26,6 +26,7 @@ search: true
 
 # Build settings
 markdown: kramdown
+theme: minimal-mistakes-jekyll
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
