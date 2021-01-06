@@ -23,7 +23,6 @@ github_username: jcha0713
 minimal_mistakes_skin: dirt
 search: true
 search_provider: lunr
-# google_site_verification: "juXRVMNOBupyZUe2XlmS1sbD3Ti9IBxtQ1sYQbEnmzg"
 
 # Build settings
 markdown: kramdown
