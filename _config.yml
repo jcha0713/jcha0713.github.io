@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Joohoon Cha"
   avatar : "/assets/images/profile.jpg"
-  bio    : "(Trying to be) Full stack developer | Novel writer(Kor only) | Designer | film photographer | Suwon Samsung Bluewings🔵⚪️🔴"
+  bio    : "(Trying to be) Full stack developer, Novel writer(Kor only), Designer, film photographer, and a Suwon Samsung Bluewings fan🔵⚪️🔴"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
