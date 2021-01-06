@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Joohoon Cha"
   avatar : "/assets/images/profile.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "(Trying to be) Full stack developer | Novel writer(Kor only) | Designer | film photographer | Suwon Samsung Bluewings🔵⚪️🔴"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
