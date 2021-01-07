@@ -110,6 +110,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      toc: true
+      toc_label: "Projects"
 
 category_archive:
   type: liquid
