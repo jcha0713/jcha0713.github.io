@@ -1,27 +1,17 @@
-# Minimal Mistakes remote theme starter
+# [jcha013.github.io](https://jcha0713.github.io)
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+[Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes)를 사용한 깃허브 블로그입니다.
 
-Contains basic configuration to get you a site with:
+블로그 컨텐츠:
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+- 단편 소설
+- UW 렉쳐 노트 아카이브
+- 축구 데이터 분석
+- 사이드 프로젝트 정리 글
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
-
+컨텐츠는 언제든지 추가되거나 제거될 수 있습니다.
 ---
 
-## Troubleshooting
+## 문의
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+블로그에 관련된 문의는 블로그 메인의 소셜 링크를 이용해주세요. 감사합니다.
