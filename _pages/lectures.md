@@ -7,5 +7,5 @@ permalink: /lectures/
 
 # WI20
 ---
-- [CSE 374](/cse374/)
-- [CSE 414](/cse414/)
+- [CSE 374](/lectures/cse374/)
+- [CSE 414](/lectures/cse414/)
