@@ -111,7 +111,6 @@ defaults:
       layout: single
       author_profile: true
       toc: true
-      toc_label: "Projects"
 
 category_archive:
   type: liquid
