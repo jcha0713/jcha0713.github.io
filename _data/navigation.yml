@@ -5,8 +5,8 @@ main:
     url: /lectures/
   - title: "Categories"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
+  # - title: "Tags"
+  #   url: /tags/
   - title: "Posts"
     url: /posts/
   # About 페이지
