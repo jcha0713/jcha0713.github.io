@@ -102,7 +102,7 @@ defaults:
       show_date: true
       comments: true
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"
