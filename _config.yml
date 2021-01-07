@@ -110,11 +110,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  - scope:
-      path: "_projects"
-      type: projects
-    values:
-      layout: single
       toc: true
       toc_label: "Projects"
 
