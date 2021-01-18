@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A website about all kinds of programming, match data analysing, film photography that I(Joohoon Cha) do.
 twitter_username: jcha0713
 github_username: jcha0713
-# minimal_mistakes_skin: dirt
+minimal_mistakes_skin: dirt
 search: true
 search_provider: lunr
 
