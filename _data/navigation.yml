@@ -9,6 +9,6 @@ main:
   #   url: /tags/
   - title: "Posts"
     url: /posts/
-  About 페이지
-  - title: "About"
-    url: /about/
+  # About 페이지
+  # - title: "About"
+  #   url: /about/
