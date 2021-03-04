@@ -1,10 +1,10 @@
 ---
-title: "CSE 374 - Linux & C Programming"
-permalink: /lectures/cse374/
+title: "Linux & C Programming"
+permalink: /lectures/c_chapter1/
 ---
-[Course website](https://courses.cs.washington.edu/courses/cse374/21wi/)
 
-## Week 1
+## Chapter 1
+
 ### Installation and setups
 
 - VM set up
@@ -24,7 +24,7 @@ permalink: /lectures/cse374/
   - Open a (draft) merge request on Gitlab to merge your branch into `main` branch.
 
 ### Shell basics
-  
+
 - `ls`
   - list files in current directory
 - `pwd`
@@ -96,12 +96,66 @@ int main() {
 - `main` returns an `int` in C
   - returning `0` means "success" and any non zero value indicates failure
 - `printf`:
+
 ```c
 printf("hello\n");
 ```
-  - it does not automatically append a newline
-  - print the text to `stdout`
+
+- it does not automatically append a newline
+- print the text to `stdout`
 - `getc` takes an argument and read one character(!) from that file
   - return type of `getc` is `int`
   - it returns a special value `EOF` (End Of File), which indicates the end of input(or file)
 - `putc` takes two argument: a character and a file - writes given charcter to that file
+
+# Week 2
+
+### Defensive programming (Just like defensive driving)
+
+```c
+#include <stdio.h>
+
+int main() {
+  int c;
+  int n = 0;
+  while ((c = getc(stdin)) != EOF) {
+    if (c == '\n') {
+      printf("%d", n);
+      n = 0;
+    } else {
+      n++;
+    }
+  }
+  return 0;
+}
+```
+
+- C is not a kind language
+- one needs to constantly be slightly paranoid and vigilant about mysterious errors.
+- In this program that counts the length of every line, one might consider
+  - how to handle last line of file when there is no `\n`
+  - What if we forget to initiate the count?
+
+### Number representation
+
+- The machine operates on numbers using a binary (base 2) representation.
+- Every integer type in C uses a certain number of binary digits
+- Example: No. 5 represented in 4 bit binary is 0101
+  - In binary we have the ones place, twos place, fours place, etc., for each power of two.
+  - 5 = 4 + 1
+
+### Bitwise operations
+
+- It is kinda useful to think of an integer as a number versus as a sequence of bits.
+- Several operations available in C are best thought of as operating on sequences of bits. we call these operations the "bitwise operations" because they operate "bit by bit".
+- Bitwise and
+  - It uses the single ampersand character in C: `&`
+  - takes two sequences of bits and lines up their columns, and computes the boolean "and" of each column to get the corresponding bit in the output.
+  - The output bit is 1 if both input bits in that column are 1, otherwise that column's bit is a zero.
+  - for example, 5 & 12 = 4 because we can write out the bits like this
+    ```
+      0101
+    & 1100
+    ------
+      0100 = 4
+    ```
