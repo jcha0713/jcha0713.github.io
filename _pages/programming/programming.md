@@ -5,9 +5,9 @@ permalink: /programming/
 
 ## Linux & C
 
-- [Chapter 1](/lectures/c_chapter1/)
-- [Chapter 2](/lectures/c_chapter2/)
+- [Basic of shell & C](/lectures/c_chapter1/)
+- [More C basic and bitwise operations](/lectures/c_chapter2/)
 
 ## Data Management
 
-- [Chapter1](/lectures/data_chapter1/)
+- [What is a DBMS?](/lectures/data_chapter1/)
