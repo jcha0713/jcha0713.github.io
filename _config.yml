@@ -60,14 +60,14 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Joohoon Cha"
-  avatar : "/assets/images/profile.jpg"
-  bio    : "Full stack developer, novel writer(Korean only), designer, film photographer, and Suwon Samsung Bluewings fan 🔵⚪️🔴"
+  name: "Joohoon Cha"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Full stack developer, novel writer(Korean only), designer, film photographer, and Suwon Samsung Bluewings fan 🔵⚪️🔴"
   location: "Seoul, KR"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://jcha0713.github.io"
+      url: "https://parkingspace.me"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/jcha0713"
