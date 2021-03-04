@@ -20,7 +20,3 @@ A DBMS is a big program written by someone else that allow us to manage a large 
 ---
 
 A Data Model is a mathematical formalism to describe data. It is how we can talk about data conceptually without having to think about implementation.
-
-#### 3 Parts of a Data Model
-
----
